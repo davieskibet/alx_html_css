@@ -54,3 +54,53 @@ a {
 a:hover {
   text-decoration: underline;
 }
+article {
+  background-color: #fff8f0;   /* light cream background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+article h1, article h2, article h3 {
+  color: #F80002;   /* make headings pop */
+}
+
+article p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+article img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.learners-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.learners-table th, .learners-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.learners-table th {
+  background-color: #f2f2f2;
+}
+aside {
+  background-color: #f0f8ff;   /* light blue */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+aside p {
+  background: #e0f7fa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+}
+
